@@ -1,4 +1,6 @@
 import logoImage from "../../assets/logo.png";
+import { Linkedin, Instagram } from "lucide-react";
+
 
 export function Footer() {
   const currentYear = new Date().getFullYear();
@@ -33,6 +35,29 @@ export function Footer() {
             <div className="inline-block px-3 py-1 bg-green-600/20 text-green-400 rounded">
               MSME Certified
             </div>
+            {/* Social Links */}
+              <div className="flex gap-4 mt-4">
+                <a
+                  href="https://www.linkedin.com/company/projectsthreesixty/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-green-400 transition-colors"
+                  aria-label="LinkedIn"
+                >
+                  <Linkedin size={20} />
+                </a>
+
+                <a
+                  href="https://www.instagram.com/projects360__/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-400 hover:text-green-400 transition-colors"
+                  aria-label="Instagram"
+                >
+                  <Instagram size={20} />
+                </a>
+              </div>
+
           </div>
 
           {/* Quick Links */}
@@ -81,7 +106,7 @@ export function Footer() {
                   href="tel:+919876543210"
                   className="hover:text-green-400 transition-colors"
                 >
-                  +91 98765 43210
+                  +91 9790446227
                 </a>
               </li>
               {/* <li className="text-gray-400">

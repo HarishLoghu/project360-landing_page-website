@@ -83,8 +83,8 @@ export function Contact() {
     {
       icon: Phone,
       title: 'Call Us',
-      detail: '+91 98765 43210',
-      link: 'tel:+919876543210',
+      detail: '+91 97904 46227',
+      link: 'tel:+919790446227',
     },
     // {
     //   icon: MapPin,

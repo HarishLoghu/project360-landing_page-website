@@ -26,10 +26,10 @@ export function WhyUs() {
   ];
 
   const stats = [
-    { value: '500+', label: 'Projects Delivered' },
-    { value: '1000+', label: 'Satisfied Clients' },
+    { value: '50+', label: 'Projects Delivered' },
+    { value: '100+', label: 'Satisfied Clients' },
     { value: '50+', label: 'Expert Team Members' },
-    { value: '98%', label: 'Client Satisfaction' },
+    { value: '96%', label: 'Client Satisfaction' },
   ];
 
   return (

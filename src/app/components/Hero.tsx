@@ -47,15 +47,15 @@ export function Hero() {
             </div>
             <div className="grid grid-cols-3 gap-8 pt-8 border-t border-gray-200">
               <div>
-                <div className="text-green-600">500+</div>
+                <div className="text-green-600">50+</div>
                 <div className="text-gray-600">Projects Completed</div>
               </div>
               <div>
-                <div className="text-green-600">1000+</div>
+                <div className="text-green-600">100+</div>
                 <div className="text-gray-600">Happy Clients</div>
               </div>
               <div>
-                <div className="text-green-600">98%</div>
+                <div className="text-green-600">96%</div>
                 <div className="text-gray-600">Success Rate</div>
               </div>
             </div>

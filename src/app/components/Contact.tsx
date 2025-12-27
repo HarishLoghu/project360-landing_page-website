@@ -86,12 +86,12 @@ export function Contact() {
       detail: '+91 98765 43210',
       link: 'tel:+919876543210',
     },
-    {
-      icon: MapPin,
-      title: 'Visit Us',
-      detail: 'Bangalore, Karnataka, India',
-      link: '#',
-    },
+    // {
+    //   icon: MapPin,
+    //   title: 'Visit Us',
+    //   detail: 'Bangalore, Karnataka, India',
+    //   link: '#',
+    // },
   ];
 
   return (
@@ -141,7 +141,7 @@ export function Contact() {
                 We are an officially recognized MSME-approved organization, committed to delivering quality services and maintaining the highest standards of professionalism.
               </p>
               <div className="inline-block px-4 py-2 bg-white/20 backdrop-blur-sm rounded-lg">
-                Trusted by 1000+ Clients
+                Trusted by 100+ Clients
               </div>
             </div>
           </div>

@@ -84,9 +84,9 @@ export function Footer() {
                   +91 98765 43210
                 </a>
               </li>
-              <li className="text-gray-400">
+              {/* <li className="text-gray-400">
                 Bangalore, Karnataka, India
-              </li>
+              </li> */}
             </ul>
           </div>
         </div>

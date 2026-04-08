@@ -1,5 +1,4 @@
 
-import logoImage from '../../assets/logo.png';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
 import SiteVisits from "./SiteVisits";

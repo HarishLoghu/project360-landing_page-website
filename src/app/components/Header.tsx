@@ -1,6 +1,8 @@
+
+import logoImage from '../../assets/logo.png';
 import { useState } from 'react';
 import { Menu, X } from 'lucide-react';
-import logoImage from '../../assets/logo.png';
+import SiteVisits from "./SiteVisits";
 
 export function Header() {
   const [mobileMenuOpen, setMobileMenuOpen] = useState(false);
@@ -17,10 +19,8 @@ export function Header() {
     <header className="fixed top-0 left-0 right-0 z-50 bg-white/95 backdrop-blur-sm border-b border-gray-200">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-20 sm:h-24">
-          {/* Logo */}
-          <div className="flex-shrink-0">
-            <img src={logoImage} alt="PROJECTS 360°" className="h-16 sm:h-20" />
-          </div>
+         
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex space-x-8">
@@ -44,13 +44,18 @@ export function Header() {
             </button>
           </nav>
 
-          {/* CTA Button */}
-          <button
-            onClick={() => scrollToSection('contact')}
-            className="hidden md:block px-6 py-2.5 bg-green-700 text-white rounded-lg hover:bg-green-800 transition-colors"
-          >
-            Get Quote
-          </button>
+          {/* CTA + Site Visits */}
+<div className="hidden md:flex items-center">
+  <SiteVisits />
+
+  <button
+    onClick={() => scrollToSection('contact')}
+    className="px-6 py-2.5 bg-green-700 text-white rounded-lg hover:bg-green-800 transition-colors"
+  >
+    Get Quote
+  </button>
+</div>
+
 
           {/* Mobile menu button */}
           <button
@@ -114,3 +119,4 @@ export function Header() {
     </header>
   );
 }
+
